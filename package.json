@@ -1,0 +1,20 @@
+{
+  "name": "gql-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@apollo/server": "^4.11.3",
+    "graphql": "^16.10.0",
+    "mysql2": "^3.14.0",
+    "sequelize": "^6.37.7"
+  },
+  "type": "module"
+}

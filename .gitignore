@@ -1,0 +1,38 @@
+# Ignore node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore environment variables and sensitive files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignore database files
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+*.log
+
+# Ignore build and dependency directories
+dist/
+build/
+.cache/
+
+# Ignore logs and temp files
+*.log
+*.out
+*.pid
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Ignore package locks (optional, if using yarn or npm lockfiles)
+package-lock.json
+yarn.lock
