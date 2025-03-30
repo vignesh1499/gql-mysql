@@ -1,0 +1,27 @@
+mutation {
+  addBook(title: "Atomic Habits", author: "James Clear") {
+    id
+    title
+    author
+  }
+}
+
+query {
+  books {
+    id
+    title
+    author
+  }
+}
+
+query {
+  bookById(id: 1) {
+    id
+    title
+    author
+  }
+}
+
+mutation {
+  deleteBook(id: 1)
+}
