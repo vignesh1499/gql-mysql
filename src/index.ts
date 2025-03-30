@@ -3,7 +3,7 @@ import { startStandaloneServer } from "@apollo/server/standalone";
 import { Sequelize, DataTypes } from "sequelize";
 
 //Create a new Sequelize instance
-const sequelize = new Sequelize("testdb", "root", "Bluespire@9", {
+const sequelize = new Sequelize(dbname, userame , password, {
   host: "localhost",
   dialect: "mysql",
 });
